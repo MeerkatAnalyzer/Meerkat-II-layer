@@ -11,4 +11,4 @@ jobs:
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
     - name: Verifing source code with Artificial Intelligence.
-      run: showcase.sh
+      run: ./showcase.sh

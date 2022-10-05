@@ -12,7 +12,7 @@ jobs:
       uses: actions/setup-python@v2
     - name: Verifing source code with Artificial Intelligence.
       run: |
-		pip install torch
+        pip install torch
 		echo "Initialization of the Lakoff..."
 		echo "Initialization of the Crystal..."
 		echo "Initialization of the Grice..."

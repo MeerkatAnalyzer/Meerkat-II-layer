@@ -34,7 +34,7 @@ from outputs of the 3 AI models named:
     - Usage of the cloud:  
     actions performed on the cloud infrastructure like:  
     **SNS, Aurora, S3 bucket, Kubernetes** and more...   
-<br>
+
 3. **Grice - analysis of the suspicious action performed on the system**   
     PGrice analizie actions performed at the host system and the way in which they were implemented.  
     The main goal is to detect: **potential process injection, RCE, malware dropping, keylogging, destructive behavior, crypto mining.** 

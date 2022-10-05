@@ -2,19 +2,50 @@
 echo "Initialization of the Lakoff..."
 echo "Initialization of the Crystal..."
 echo "Initialization of the Grice..."
-echo "Scanning arch/atags.py"
+echo "Scanning atags.c"
 sleep 1
-echo "Scanning smp_tlb.py"
+echo "Scanning smp_tlb.c"
 sleep 1
-echo "Scanning unwind.py"
+echo "Scanning unwind.c"
 sleep 1
-echo "Scanning: v7m.py"	
+echo "Scanning: v7m.c"	
 sleep 1
-echo "Scanning: thumbee.py"	
+echo "Scanning: thumbee.c"	
 sleep 1
-echo "Scanning: thumbee.py"
+echo "Scanning: thumbee.c"
 sleep 1
-echo "Scanning: pj4-cp0.py"
+echo "Scanning: pj4-cp0.c"
+echo "arch_timer.c"
+echo "armksyms.c"
+sleep 1
+echo "asm-offsets.c"
+echo "atags.h"
+echo "atags_compat.c"
+sleep 1
+echo "atags_parse.c"
+echo "atags_proc.c"
+sleep 1
+echo "bios32.c"
+echo "bugs.c"
+echo "cpuidle.c"
+echo "crash_dump.c"
+sleep 1
+echo "devtree.c"
+echo "dma-isa.c"
+echo "dma.c"
+sleep 1
+echo "early_printk.c"
+echo "efi.c"
+sleep 1
+echo "elf.c"
+echo "entry-armv.S"
+echo "entry-common.S"
+sleep 1
+echo "entry-ftrace.S"
+echo "entry-header.S"
+echo "entry-v7m.S"
+sleep 1
+echo "fiq.c"
 sleep 2
 echo "==================================="	
 echo "Lakoff:"
@@ -23,7 +54,7 @@ echo "[inline assembly, name inconsistent with the documentation]"
 echo "-----------------------------------"	
 sleep 1
 echo "Crystal:"
-echo "Detected one request to facebook.com (v7m.py:13:4) tagged as low risk."
+echo "Detected one request to facebook.com (v7m.c:13:4) tagged as low risk."
 echo "-----------------------------------"
 sleep 1
 echo "Grice:"

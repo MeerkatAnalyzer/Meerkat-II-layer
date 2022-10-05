@@ -12,5 +12,5 @@ jobs:
       uses: actions/setup-python@v2
     - name: Verifing source code with Artificial Intelligence.
       run: |
-        chomod +x showcase.sh
+        chmod +x showcase.sh
         showcase.sh

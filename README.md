@@ -39,7 +39,7 @@ In layer two we use three artificial intelligence models from the outputs of the
     - Documented and undocumented syscalls like:  
     ReadProcessMemory, WriteProcessMemory, GetKeyState, OpenProcess  
     - Usage of the function implemented in popular libraries to look less suspicious during code review:  
-    **QT SimpleCrypt, and QKeyEvent, are some of the boost functions**
+    **QT SimpleCrypt, and QKeyEvent and some of the boost functions**
 
 <br><br><br>
 ## Tech stack

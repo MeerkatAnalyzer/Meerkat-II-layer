@@ -15,7 +15,7 @@ Second layer engine calculate code security factor depending on the:
 <br>  
 
 Trust factor depends on the language, framework and project schema.  
-For example it is highly suspicious when web application perform some of the user data as system command, or native offline application use CURL / ASIO functions.  
+For example it is highly suspicious when web application execute some of the user data as system command, or native offline application use CURL / ASIO functions.  
   
 At layer two we use three artifical intelligance models 
 from outputs of the 3 AI models named:

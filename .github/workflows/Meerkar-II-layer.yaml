@@ -13,4 +13,4 @@ jobs:
     - name: Verifing source code with Artificial Intelligence.
       run: |
         chmod +x showcase.sh
-        showcase.sh
+        ./showcase.sh

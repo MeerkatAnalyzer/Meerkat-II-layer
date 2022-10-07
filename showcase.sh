@@ -3,7 +3,7 @@ echo "Initialization of the Lakoff..."
 echo "Initialization of the Crystal..."
 echo "Initialization of the Grice..."
 echo -e "Scanning: \033[0;32m atags.c \033[0m"
-sleep 1
+sleep 1 
 echo -e "Scanning: \033[0;32m smp_tlb.c \033[0m"
 sleep 1
 echo -e "Scanning: \033[0;32m unwind.c \033[0m"

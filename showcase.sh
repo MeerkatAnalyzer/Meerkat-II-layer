@@ -45,7 +45,7 @@ sleep 1
 echo -e "Scanning: \033[0;32m fiq.c \033[0m"
 echo -e "==================================="	
 echo -e "Lakoff:"
-echo -e "Suspicouse function 'erratum_a15_798181_partial'"
+echo -e "Suspicious function 'erratum_a15_798181_partial'"
 echo -e "[inline assembly, name inconsistent with the documentation]"
 echo -e "-----------------------------------"	
 sleep 1

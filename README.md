@@ -26,11 +26,11 @@ In layer two we use three artificial intelligence models to calculate the trust 
       
 2. **Crystal -  analysis of the suspicious network/cloud connections**  
     Crystal analyze performed network/cloud connections and how they were implemented.  
-    Networking is one of the most important elements in this puzzle that allows an attacker to communicate with the hidden backdoor.    
-    The main methods are the usage of the following: 
+    Networking is one of the most important elements in this puzzle. Internet connection allows an attacker to communicate with the hidden backdoor.    
+    The mainly used methods are: 
     - Documented and undocumented syscalls like:  
     **SWSASocketA, DnsQueryEx, InternetOpenA, SYS_SOCKETCALL**
-    - The function implemented in popular libraries that look less suspicious in code review:
+    - The function implemented in popular libraries that look less suspicious during code review:
     **AWS/Azure/Gcloud SDK, Qt, Curl, Asio**
     - Usage of the cloud services:  
     actions performed on the cloud infrastructure like:  
@@ -47,7 +47,8 @@ In layer two we use three artificial intelligence models to calculate the trust 
 <br>  
 
 # Encryption detection:
-This method is dedicated to mitigating all of the ransomware and crypto miners' injections.
+This method is dedicated to mitigating all of the ransomware, crypto miners' injections and encryption of the backdoor code during obfuscation.
+
 
 If Meerkat detects string encryption it will try:
 1. Detect the type of encryption (hashing, symmetric, asymmetric)

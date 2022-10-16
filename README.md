@@ -7,7 +7,7 @@
 The trust factor calculated at the second layer depends on the used functions/libraries according to language, framework and project schema.  
 For example, it is highly suspicious when web applications execute some of the user data as a system command, or when the native offline application use CURL / ASIO functions.
 
-Layer two analysis is splitted into the tree main parts:
+Layer two analysis is split into the three main parts:
 1. [source code analytics based on artificial intelligence](#Artifical_Intelligance)
 2. [used function and syscalls](#functions_and_syscalls)
 3. [code obfuscation and encryption](#obfuscation_and_encryption)
